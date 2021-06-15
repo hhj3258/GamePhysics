@@ -1,11 +1,11 @@
-## Basic Kinematic_BeanBag Game
+# Basic Kinematic_BeanBag Game
 
-### 개요
+## 개요
 가속도, 속도, 변위(위치) 간의 관계성에 관한 간단한 공 던지기(포물선 운동) 게임 예제
 
 ![image](https://user-images.githubusercontent.com/70702088/122098922-66a72b00-ce4c-11eb-816e-e92c74952d5b.png)
 
-### 핵심 코드
+## 핵심 코드
 ```C#
         //0.05초마다 타이머에 의해 호출됨
         private void ActionPerformed(object sender, EventArgs e)
@@ -31,4 +31,9 @@
             }
         }
 ```
-            
+
+
+## 구현 환경
+- Visual Studio 2019
+- Windows Forms 앱(.NET Framework)
+- .NET Framework 4.7.2
