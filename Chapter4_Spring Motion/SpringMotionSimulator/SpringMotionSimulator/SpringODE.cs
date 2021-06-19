@@ -74,7 +74,7 @@ class SpringODE : ODE
         for(int i = 0; i < 2; ++i)
         {
             newQ[i] = q[i] + qScale * deltaQ[i];
-            Console.WriteLine("deltaQ " + i + ": " + deltaQ[i]);
+            //Console.WriteLine("deltaQ " + i + ": " + deltaQ[i]);
         }
 
         // 우측 항 값들 계산
