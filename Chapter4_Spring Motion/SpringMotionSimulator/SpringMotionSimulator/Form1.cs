@@ -108,7 +108,5 @@ namespace SpringMotionSimulator
 
             UpdateDisplay();
         }
-
-
     }
 }

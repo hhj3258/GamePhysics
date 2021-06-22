@@ -21,13 +21,13 @@ namespace SpringMotionSimulator
             //7초까지 0.1초마다 업데이트
             double dt = 0.1;
 
-            Console.WriteLine("t    x   v");
-            Console.WriteLine("" + ode.GetTime() + "    " + (float)ode.GetX() + "   " + (float)ode.GetVx());
+            Console.WriteLine("t           x         v");
+            Console.WriteLine((float)ode.GetTime() + "            " + (float)ode.GetX() + "          " + (float)ode.GetVx());
 
             while (ode.GetTime() <= 7.0)
             {
                 ode.UpdatePositionAndVelocity(dt);
-                Console.WriteLine("" + ode.GetTime() + "    " + (float)ode.GetX() + "   " + (float)ode.GetVx());
+                Console.WriteLine((float)ode.GetTime() + "           " + (float)ode.GetX() + "          " + (float)ode.GetVx());
             }
 
             Application.EnableVisualStyles();

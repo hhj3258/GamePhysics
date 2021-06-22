@@ -2,14 +2,19 @@
 
 public abstract class ODE
 {
-    private int numEqns;    // number of Equations : 1차 ODE 방정식의 개수
-    private double[] q;     // 종속 변수들의 배열
-    private double s;       // 독립 변수
+    // number of Equations : 1차 ODE 방정식의 개수
+    private int numEqns;
+    // 종속 변수들의 배열
+    private double[] q;
+    // 독립 변수
+    private double s;       
 
     public ODE(int numEqns)
     {
-        this.numEqns = numEqns;     // numEqns를 매개변수 numEqns로 초기화
-        this.q = new double[numEqns];   // 종속 변수들의 배열의 크기를 numEqns의 크기로 초기화
+        // numEqns를 매개변수 numEqns로 초기화
+        this.numEqns = numEqns;
+        // 종속 변수들의 배열의 크기를 numEqns의 크기로 초기화
+        this.q = new double[numEqns];   
     }
 
     public int NumEqns

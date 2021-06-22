@@ -8,7 +8,7 @@ class SpringODE : ODE
     private double x0;  // 초기 스프링 편향(위치)
 
     //SpringODE 생성자: ODE 생성자를 호출함
-    public SpringODE(double mass, double mu, double k, double x0) : base(2) // 스프링 운동은 2차 ODE임
+    public SpringODE(double mass, double mu, double k, double x0) : base(2) // 스프링 운동은 2개의 1차 ODE임
     {
         this.mass = mass;
         this.mu = mu;
@@ -76,10 +76,10 @@ class SpringODE : ODE
             newQ[i] = q[i] + qScale * deltaQ[i];
             //Console.WriteLine("deltaQ " + i + ": " + deltaQ[i]);
         }
-
+        //Console.WriteLine("ds: " + ds);
         // 우측 항 값들 계산
         double G = -9.81;   //중력가속도
-        dq[0] = ds * G - ds * (mu * newQ[0] + k * newQ[1]) / mass;  //
+        dq[0] = -ds * G - ds * (mu * newQ[0] + k * newQ[1]) / mass;  //
         dq[1] = ds * (newQ[0]);
 
         return dq;
