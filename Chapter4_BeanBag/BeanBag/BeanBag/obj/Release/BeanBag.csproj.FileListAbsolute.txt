@@ -1,9 +1,0 @@
-C:\Users\hhj32\Desktop\GamePhysics\GamePhysics\Chapter4_BeanBag\BeanBag\BeanBag\bin\Release\BeanBag.exe.config
-C:\Users\hhj32\Desktop\GamePhysics\GamePhysics\Chapter4_BeanBag\BeanBag\BeanBag\bin\Release\BeanBag.exe
-C:\Users\hhj32\Desktop\GamePhysics\GamePhysics\Chapter4_BeanBag\BeanBag\BeanBag\bin\Release\BeanBag.pdb
-C:\Users\hhj32\Desktop\GamePhysics\GamePhysics\Chapter4_BeanBag\BeanBag\BeanBag\obj\Release\BeanBag.BeanBag.resources
-C:\Users\hhj32\Desktop\GamePhysics\GamePhysics\Chapter4_BeanBag\BeanBag\BeanBag\obj\Release\BeanBag.Properties.Resources.resources
-C:\Users\hhj32\Desktop\GamePhysics\GamePhysics\Chapter4_BeanBag\BeanBag\BeanBag\obj\Release\BeanBag.csproj.GenerateResource.cache
-C:\Users\hhj32\Desktop\GamePhysics\GamePhysics\Chapter4_BeanBag\BeanBag\BeanBag\obj\Release\BeanBag.csproj.CoreCompileInputs.cache
-C:\Users\hhj32\Desktop\GamePhysics\GamePhysics\Chapter4_BeanBag\BeanBag\BeanBag\obj\Release\BeanBag.exe
-C:\Users\hhj32\Desktop\GamePhysics\GamePhysics\Chapter4_BeanBag\BeanBag\BeanBag\obj\Release\BeanBag.pdb
