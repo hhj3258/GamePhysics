@@ -74,7 +74,8 @@ public class SpringMotion : MonoBehaviour
         v0 = v0 + 1f / 6f * (dv1 + 2f * dv2 + 2f * dv3 + dv4);
         x0 = x0 + 1f / 6f * (dx1 + 2f * dx2 + 2f * dx3 + dx4);
 
-        transform.position = new Vector3(transform.position.x, x0, transform.position.z);
+        //transform.position = new Vector3(transform.position.x, x0, transform.position.z);
+        gameObject.GetComponent<Rigidbody>().velocity = new Vector3(transform.position.x, v0, transform.position.z);
 
         if (sum_time <= 1f)
             //Debug.Log("t: " + sum_time  + "\tv: " + v0 + "\tx: " + x0);
